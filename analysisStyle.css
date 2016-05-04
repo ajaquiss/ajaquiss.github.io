@@ -1,0 +1,7 @@
+#flow, p{
+  background-color: white;
+}
+#analysisTitle{
+  background-image: url("images/microsoft.jpg");
+  border: 15px inset grey;
+}

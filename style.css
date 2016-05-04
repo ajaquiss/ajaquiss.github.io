@@ -1,0 +1,301 @@
+#navigation li {
+  font-size: 25px;
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 1em;
+  border-style: outset;
+  background-color: grey;
+}
+/*#titleImage{
+  position: absolute;
+  z-index: 4;
+}*/
+#aboutCrabBackground{
+  z-index: -2;
+  border:20px solid black;
+  position: absolute;
+}
+
+#biz {
+  border: 3px solid green;
+}
+
+body {
+    -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
+    zoom: 0.9; /* Other non-webkit browsers */
+    zoom: 90%; /* Webkit browsers */
+    background-image: url("images/960.jpg");
+}
+.analysisBody {
+  background-color: green;
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+  zoom: 0.8; /* Other non-webkit browsers */
+  zoom: 80%; /* Webkit browsers */
+}
+
+#analysisTitle h1 {
+  position: absolute;
+  font: 60px;
+}
+
+
+#topBar {
+  position: absolute;
+  border: 40px outset;
+  background-color: #ffcc99;
+  text-align: center;
+}
+#navBar {
+  position: absolute;
+  top: 400px;
+  text-align: center;
+  border: 2px solid green;
+  background-color: #ffd9b3;
+  margin-top: 25px;
+  width: 100vw;
+  height: 120px;
+  overflow: hidden;
+}
+table img {
+  height:160px;
+  width:220px;
+}
+.no {
+  border: 5px solid green;
+
+}
+table th,td{
+  border: 10px outset;
+  background-color: grey;
+}
+.jiggle{
+  animation: jiggler linear .5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: jiggler linear .5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: jiggler linear .5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: jiggler linear .5s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: jiggler linear .5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes jiggler{
+  0% {
+    transform:  translate(-23px,-19px)  rotate(0deg) skewX(0deg) ;
+  }
+  100% {
+    transform:  translate(-24px,-18px)  rotate(7deg) skewX(-13deg) ;
+  }
+}
+
+@-moz-keyframes jiggler{
+  0% {
+    -moz-transform:  translate(-23px,-19px)  rotate(0deg) skewX(0deg) ;
+  }
+  100% {
+    -moz-transform:  translate(-24px,-18px)  rotate(7deg) skewX(-13deg) ;
+  }
+}
+
+@-webkit-keyframes jiggler {
+  0% {
+    -webkit-transform:  translate(-23px,-19px)  rotate(0deg) skewX(0deg) ;
+  }
+  100% {
+    -webkit-transform:  translate(-24px,-18px)  rotate(7deg) skewX(-13deg) ;
+  }
+}
+
+@-o-keyframes jiggler {
+  0% {
+    -o-transform:  translate(-23px,-19px)  rotate(0deg) skewX(0deg) ;
+  }
+  100% {
+    -o-transform:  translate(-24px,-18px)  rotate(7deg) skewX(-13deg) ;
+  }
+}
+
+@-ms-keyframes jiggler {
+  0% {
+    -ms-transform:  translate(-23px,-19px)  rotate(0deg) skewX(0deg) ;
+  }
+  100% {
+    -ms-transform:  translate(-24px,-18px)  rotate(7deg) skewX(-13deg) ;
+  }
+}
+p{
+  font-family: fantasy;
+  font-size: 30px;
+  text-shadow: 1px 2px 3px;
+}
+#note {
+  position: absolute;
+  top:50px;
+  left: 50px;
+  width:300px;
+  height:800px;
+}
+#looking {
+  font-size: 30px;
+  font-family: cursive;
+  position: absolute;
+}
+.point{
+  animation: pointer linear 0.2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: pointer linear 0.2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: pointer linear 0.2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: pointer linear 0.2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: pointer linear 0.2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes pointer{
+  0% {
+    transform:  translate(-1px,0px)  ;
+  }
+  100% {
+    transform:  translate(-5px,-48px)  ;
+  }
+}
+
+@-moz-keyframes pointer{
+  0% {
+    -moz-transform:  translate(-1px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(-5px,-48px)  ;
+  }
+}
+
+@-webkit-keyframes pointer {
+  0% {
+    -webkit-transform:  translate(-1px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(-5px,-48px)  ;
+  }
+}
+
+@-o-keyframes pointer {
+  0% {
+    -o-transform:  translate(-1px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(-5px,-48px)  ;
+  }
+}
+
+@-ms-keyframes pointer {
+  0% {
+    -ms-transform:  translate(-1px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(-5px,-48px)  ;
+  }
+}
+.slowCrawl{
+  animation: crawler linear 20s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: crawler linear 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: crawler linear 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: crawler linear 20s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: crawler linear 20s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes crawler{
+  0% {
+    transform:  translate(-503px,-2px)  ;
+  }
+  100% {
+    transform:  translate(1010px,-12px)  ;
+  }
+}
+
+@-moz-keyframes crawler{
+  0% {
+    -moz-transform:  translate(-503px,-2px)  ;
+  }
+  100% {
+    -moz-transform:  translate(1010px,-12px)  ;
+  }
+}
+
+@-webkit-keyframes crawler {
+  0% {
+    -webkit-transform:  translate(-503px,-2px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(1010px,-12px)  ;
+  }
+}
+
+@-o-keyframes crawler {
+  0% {
+    -o-transform:  translate(-503px,-2px)  ;
+  }
+  100% {
+    -o-transform:  translate(1010px,-12px)  ;
+  }
+}
+
+@-ms-keyframes crawler {
+  0% {
+    -ms-transform:  translate(-503px,-2px)  ;
+  }
+  100% {
+    -ms-transform:  translate(1010px,-12px)  ;
+  }
+}
+#invest p{
+  /*display:inline;*/
+  color: yellow;
+  position: relative;
+  top:-200px;
+  z-index: 2;
+}
+#looking {
+  color: red;
+}
+#slowandbad {
+  position: relative;
+  left:-1000px;
+}
+#infographic{
+  width:100%;
+}
+#title2{
+  position: relative;
+  left:-20%;
+  width:30%;
+  top:-300px;
+}
+#content{
+  position: relative;
+  top:1500px;
+}
